@@ -75,10 +75,18 @@ footer {
 .liens {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 a {
     color: white;
     font-family: 'Orbitron', sans-serif;
 }
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+  }

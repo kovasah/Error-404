@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&display=swap');
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oops {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    padding-top: 2rem;
+}
+
+.error {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+}
+
+.number {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 8rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.PNF {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.littletext {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+}
